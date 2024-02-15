@@ -28,6 +28,9 @@ header {
   aspect-ratio: 35 / 4;
   padding: 0.4rem;
 }
+img{
+  color:white;
+}
 
 h1 {
   color: #f1be32;
@@ -146,7 +149,7 @@ p::before {
   padding: 0;
 }
 
-button {
+/*button {
   display: block;
   margin: 40px auto;
   width: 40%;
@@ -154,7 +157,7 @@ button {
   font-size: 23px;
   background: #d0d0d5;
   border: 3px solid #3b3b4f;
-}
+}*/
 
 footer {
   background-color: #2a2a40;
@@ -183,3 +186,4 @@ address {
   white-space: nowrap;
   border: 0;
 }
+ /*https://www.google.com/imgres?imgurl=https%3A%2F%2Fik.imagekit.io%2Fpanmac%2Ftr%3Af-auto%2Cw-740%2Cpr-true%2F%2Fbcd02f72-b50c-0179-8b4b-5e44f5340bd4%2F1c94d79b-a651-47df-aeb2-d7fce7570a22%2Fgeorge-orwell-quotes-header-min.jpg&tbnid=CB0TTYiQMTuj-M&vet=12ahUKEwj21deP2quEAxWTtIkEHUr9AzwQMygQegUIARCDAQ..i&imgrefurl=https%3A%2F%2Fwww.panmacmillan.com%2Fblogs%2Fliterary%2Fgeorge-orwell-quotes-1984-animal-farm&docid=vNZ7N91rq0SwzM&w=740&h=416&q=1984&ved=2ahUKEwj21deP2quEAxWTtIkEHUr9AzwQMygQegUIARCDAQ*/
