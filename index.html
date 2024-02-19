@@ -2,111 +2,179 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="1984 Research Project" />
-    <title>1984 Research Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magazine</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1 id="img">1984 Research Project</h1>
-      <nav>
-        <ul>
-          <li><a href="#student-info">INFO</a></li>
-          <li><a href="#html-questions">HTML</a></li>
-          <li><a href="#css-questions">CSS</a></li>
-        </ul>
-      </nav>
-    </header>
     <main>
-      <div class="1984photo">
-      	
-  </div>
-      <section role="region" aria-labelledby="student-info">
-          <h2 id="student-info">What Was Carnivore?</h2>
-          <div class="info">
-            <ul class="research-carnivore">
-              <li>Research carnivore</li>
-            </ul>
-          </div>
-        </section>
-        <section role="region" aria-labelledby="html-questions">
-          <h2 id="html-questions">HTML</h2>
-          <div class="question-block">
-            <p>1</p>
-            <fieldset class="question" name="html-question-one">
-              <legend>
-                The legend element represents a caption for the content of its
-                parent fieldset element
-              </legend>
-              <ul class="answers-list">
-                <li>
-                  <label for="q1-a1">
-                    <input type="radio" id="q1-a1" name="q1" value="true" />
-                    True
-                  </label>
-                </li>
-                <li>
-                  <label for="q1-a2">
-                    <input type="radio" id="q1-a2" name="q1" value="false" />
-                    False
-                  </label>
-                </li>
-              </ul>
-            </fieldset>
-          </div>
-          <div class="question-block">
-            <p>2</p>
-            <fieldset class="question" name="html-question-two">
-              <legend>
-                A label element nesting an input element is required to have a
-                for attribute with the same value as the input's id
-              </legend>
-              <ul class="answers-list">
-                <li>
-                  <label for="q2-a1">
-                    <input type="radio" id="q2-a1" name="q2" value="true" />
-                    True
-                  </label>
-                </li>
-                <li>
-                  <label for="q2-a2">
-                    <input type="radio" id="q2-a2" name="q2" value="false" />
-                    False
-                  </label>
-                </li>
-              </ul>
-            </fieldset>
-          </div>
-        </section>
-        <section role="region" aria-labelledby="css-questions">
-          <h2 id="css-questions">CSS</h2>
-          <div class="formrow">
-            <div class="question-block">
-              <label for="selector">Can the CSS margin property accept negative values?</label>
-            </div>
-            <div class="answer">
-              <select name="selector" id="selector" required>
-                <option value="">Select an option</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-              </select>
-            </div>
-            <div class="question-block">
-              <label for="css-textarea">Do you have any questions:</label>
-            </div>
-            <div class="answer">
-              <textarea id="css-textarea" name="css-questions" rows="5" cols="24" placeholder="Who is flexbox..."></textarea>
-            </div>
-          </div>
-        </section>
+      <section class="heading">
+        <header class="hero">
+          <img
+            src="https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png"
+            alt="freecodecamp logo"
+            loading="lazy"
+            class="hero-img"
+          />
+          <h1 class="hero-title">1984 Research Project</h1>
+          <p class="hero-subtitle">
+            Real Life Versus the World of 1984
+          </p>
+        </header>
+        <div class="author">
+          <p class="author-name">
+            By
+            <a href="https://freecodecamp.org" target="_blank" rel="noreferrer"
+              >Rudra Karadkhelkar</a
+            >
+          </p>
+          <p class="publish-date">February 18, 2024</p>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/freecodecamp/">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/freecodecamp/">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://instagram.com/freecodecamp">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/school/free-code-camp/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.youtube.com/freecodecamp">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </section>
+      <section class="text">
+        <blockquote>
+          <hr />
+          <p class="quote">
+            What was the FBI's Carnivore?
+          </p>
+          <hr />
+        </blockquote>
+        <p class="first-paragraph">
+          Carnivore was an internet monitoring system released by the FBI on July 11, 2000. Its main purpose and design was to be exclusively used to carry our court-ordered surveillance of electronic communications. In fact, according to Dunham, Griffin S in "Carnivore, the FBI's e-mail surveillance system: devouring criminals, not privacy.", the Carnivore “is a tangible, portable device, tantamount to a phone tap, that allows the FBI to intercept and collect criminal suspects' email without their knowledge or consent.“ (Dunham 1). However, the Carnivore was effectively abandoned by the FBI in mid-January 2005.
+        </p>
+        <blockquote>
+          <hr />
+          <p class="quote">
+            What are other forms of surveillance?
+          </p>
+          <hr />
+        </blockquote>
+        <p class="second-paragraph">
+          After years - years - of pondering these two problems and how to solve them, I slipped, hit my head on the sink, and when I came to I had a revelation! A vision! A picture in my head! A picture of this! This is what makes time travel possible: the flux capacitor!
+        </p>
+        <p>
+          It wasn't as dramatic as Doc's revelation in Back to the Future. It
+          just occurred to me while I was going for a run. The revelation: the entire curriculum should be a series of projects. Instead of individual coding challenges, we'll just have projects, each with their own seamless series of tests. Each test gives you just enough information to figure out how to get it to pass. (And you can view hints if that isn't enough.)
+        </p>
+        
+        <p>
+          No more walls of explanatory text. No more walls of tests. Just one
+          test at a time, as you build up a working project. Over the course of passing thousands of tests, you build up projects and your own understanding of coding fundamentals. There is no transition between lessons and projects, because the lessons themselves are baked into projects. And there's plenty of repetition to help you retain everything because - hey - building projects in real life has plenty of repetition.
+        </p>
+        <p>
+          The main design challenge is taking what is currently paragraphs of explanation and instructions and packing them into a single test description text. Each project will involve dozens of tests like this. People will be coding the entire time, rather than switching back and forth from "reading mode" to "coding mode".
+        </p>
+        <p>
+          Instead of a series of coding challenges, people will be in their code editor passing one test after another, quickly building up a project. People will get into a real flow state, similar to what they experience when they build the required projects at the end of each certification. They'll get that sense of forward progress right from the beginning. And freeCodeCamp will be a much smoother experience.
+        </p>
+      </section>
+      <section class="text text-with-images">
+        <article class="brief-history">
+          <h3 class="list-title">A Brief History</h3>
+          <p>Of the Curriculum</p>
+          <ul class="lists">
+            <li>
+              <h4 class="list-subtitle">V1 - 2014</h4>
+              <p>
+                We launched freeCodeCamp with a simple list of 15 resources,
+                including Harvard's CS50 and Stanford's Database Class.
+              </p>
+            </li>
+            <li>
+              <h4 class="list-subtitle">V2 - 2015</h4>
+              <p>We added interactive algorithm challenges.</p>
+            </li>
+            <li>
+              <h4 class="list-subtitle">V3 - 2015</h4>
+              <p>
+                We added our own HTML+CSS challenges (before we'd been relying on
+                General Assembly's Dash course for these).
+              </p>
+            </li>
+            <li>
+              <h4 class="list-subtitle">V4 - 2016</h4>
+              <p>
+                We expanded the curriculum to 3 certifications, including Front
+                End, Back End, and Data Visualization. They each had 10 required
+                projects, but only the Front End section had its own challenges.
+                For the other certs, we were still using external resources like
+                Node School.
+              </p>
+            </li>
+            <li>
+              <h4 class="list-subtitle">V5 - 2017</h4>
+              <p>We added the back end and data visualization challenges.</p>
+            </li>
+            <li>
+              <h4 class="list-subtitle">V6 - 2018</h4>
+              <p>
+                We launched 6 new certifications to replace our old ones. This was
+                the biggest curriculum improvement to date.
+              </p>
+            </li>
+          </ul>
+        </article>
+        <aside class="image-wrapper">
+          <img
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+            alt="image of the quote machine project"
+            loading="lazy"
+            class="image-1"
+            width="600"
+            height="400"
+          />
+          <img
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+            alt="image of a calculator project"
+            loading="lazy"
+            class="image-2"
+            width="400"
+            height="400"
+          />
+          <blockquote class="image-quote">
+            <hr />
+            <p class="quote">
+              The millions of people who are learning to code through freeCodeCamp
+              will have an even better resource to help them learn these
+              fundamentals.
+            </p>
+            <hr />
+          </blockquote>
+          <img
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg"
+            alt="four people working on code"
+            loading="lazy"
+            class="image-3"
+            width="600"
+            height="400"
+          />
+        </aside>
+      </section>
     </main>
-    <footer>
-      <address>
-        Rudra<br />
-        Karadkhelkar<br />
-        Coded In HTML & CSS<br />
-        Lafayette, Louisiana
-      </address>
-    </footer>
   </body>
 </html>
