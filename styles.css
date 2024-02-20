@@ -195,6 +195,10 @@ ul{
   } 
 }
 
+.divider{
+  height:82em;
+}
+
 footer {
   background-color: #2a2a40;
   display: flex;
