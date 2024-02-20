@@ -269,6 +269,11 @@ footer a {
   color: #dfdfe2;
 }
 
+footer a:hover{
+  color: white;
+  font-color: black;
+}
+
 address {
   text-align: center;
   padding: 0.3em;
