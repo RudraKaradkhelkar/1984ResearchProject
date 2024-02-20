@@ -43,6 +43,7 @@ img {
 hr {
   margin: 1.5rem 0;
   border: 1px solid rgba(120, 120, 120, 0.6);
+  margin-bottom:1px;
 }
 
 .heading {
@@ -118,6 +119,13 @@ hr {
   font-family: "Raleway", sans-serif;
 }
 
+.head{
+  color: #00beef;
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
 .text-with-images {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -148,6 +156,14 @@ hr {
 
 .image-1, .image-3 {
   grid-column: 1 / -1;
+}
+
+ul{
+  margin-left: 35px;
+}
+
+ul{
+  margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 720px) {
@@ -182,4 +198,3 @@ hr {
     font-size: 1.6rem;
   } 
 }
-
