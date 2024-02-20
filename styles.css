@@ -222,8 +222,9 @@ nav {
   color: #f1be32;
   font-size: 2rem;
   text-align: center;
-  padding-left: 6rem;
+  padding-left: 18rem;
 }
+
 nav > ul {
   display: flex;
   justify-content: space-evenly;
