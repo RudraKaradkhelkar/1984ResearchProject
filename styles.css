@@ -6,14 +6,10 @@
   box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  * {
-    scroll-behavior: smooth;
-  }
-}
-
 html {
   font-size: 75.0%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 body {
@@ -211,6 +207,7 @@ ul{
   position: fixed;
   top: 0;
   font-family: "Raleway", sans-serif;
+  z-index:1000;
  }
   
 nav {
